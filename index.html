@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Portal Master</title>
+</head>
+<body>
+        <header>
+            <nav class="header-nav">
+                <h1>Portal Master</h1>
+                <ul class="header-nav--ul">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="main-section--text">
+                <h2>Quienes somos y que hacemos?</h2>
+                <p>Somos una plataforma en la que podrás consultar para obtener imagenes y eventos de tus artistas / bandas favoritas. Todo eso nos lo permite el API de Ticket Master.</p> <br>
+                
+                <p>Podrás emperzar a navegar através de nuesta barra de <a href="#busqueda">búsqueda.</a></p>
+            </section>
+            
+
+            <section class="main-section--search" id="i">
+                <div id="#busqueda">
+
+                    <select name="opciones" id="select-op">
+                        <option value="Eventos">Eventos</option>
+                        <option value="Fotos">Fotos</option>
+                    </select>
+
+                    <input type="search" name="busquda" id="" placeholder="Buscar por aquí">
+                  
+                    <button type="button" onclick="btn-search()">OK</button>
+
+                </div>
+            </section>
+
+            <section class="main-section--post">
+                <div class="post-div--1">
+                    <h5> Revive el último concierto de Bad Bunny en Mexíco</h5>
+                </div>
+                
+                <div class="post-div--2">
+                    <h5>Top mejores show en la ciudad de Mexíco</h5>
+                </div>
+                
+                <div class="post-div--1">
+                    <h5>Maluma ha batido recórd en Los Angeles</h5>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div><p>Todos los derechos están reservado por <a href="#">Portal Urbano</a></p></div>
+            <nav class="footer-nav">
+                <ul class="footer-nav--ul">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">Twitter</a></li>
+            </ul></nav>
+        </footer>
+    <script src="/src/main.js"></script>
+</body>
+</html>

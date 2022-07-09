@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 320px;
+    min-width: 300px;
+    height: 15vh;
+    background-color: gainsboro;
+};
+
+header .header-nav{
+    width: 100%;
+    display: flex;
+}
+
+main{
+    width: 320px;
+    min-width: 300px;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-section--text{
+    width: 80%;
+    height: 45vh;
+    margin-bottom: 30px;
+    padding: 10px 10px 0 10px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+main .main-section--text h2{
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+main .main-section--text p:nth-child(2){
+    font-family: cursive;
+    text-align: center;
+}
+main .main-section--text p:nth-child(4){
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+};
+
+/* Section de busqueda */
+
+#i{
+    background-color:papayawhip;
+    display: flex;
+    margin-top: 100px;
+}
